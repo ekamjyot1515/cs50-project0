@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div>
+        <ul class="navbar">
+            <li class="navbar-item"><a href="index.html"></a></li> 
+        </ul>
+    </div>
+    <div class="appbar">
+        <label style="margin-left:10px"><b>Advanced Search</b></label>
+    </div>
+    <div class="line">
+    </div>
+    <div class="line1">
+        <p>Find Pages With...</p>   
+    <form action = "https://www.google.com/search">
+        <div class="row-input">
+            <div class="left">
+                <p>All these words:</p>
+            <div class="right">
+                <input type="text" name="as_q" class="form-control">
+            </div>
+            </div>
+        </div>
+        <div class="row-input">
+            <div class="left">
+                <p>this exact word or phrase:</p>
+            <div class="right">
+                <input type="text" name="as_epq" class="form-control">
+            </div>
+            </div>
+        </div>
+        <div class="row-input">
+            <div class="left">
+                <p>any of these words:</p>
+            <div class="right">
+                <input type="text" name="as_oq" class="form-control">
+            </div>
+            </div>
+        </div>
+        <div class="row-input">
+            <div class="left">
+                <p>none of these words:</p>
+            <div class="right">
+                <input type="text" name="as_eq" class="form-control" >
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="btn-div">
+        <input type="submit" value="Advanced search" class="btn-advanced">
+    </div>
+
+    </form>
+</body>
+</html>
